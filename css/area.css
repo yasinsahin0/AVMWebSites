@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+  }
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+.banner{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
