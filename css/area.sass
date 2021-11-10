@@ -1,1 +1,54 @@
-$color : ("tema":#fff,"gri":#aaa)
+$color1 : #6C4A4A
+$color2 : #C89595
+$color3 : #DDBEBE
+$color4 : #EDEDED
+$color5 : #fecc98
+$textColorBlack : #000
+$textColorWhite : #fff
+
+$navbarPadTop : 7%    
+$navbarPadRight : 13% 
+body
+    background-image: url("../images/bgimagetrans.png")
+    background-repeat: no-repeat
+    background-attachment: fixed
+    //background-size: 100%
+    display: block
+    -webkit-background-size: cover
+
+    
+.navbar
+    padding-top: $navbarPadTop
+    padding-right: $navbarPadRight
+    float: right
+    .home
+        background-color: $color1
+        border: none
+        color: $color4
+        padding: 20px
+        text-align: center
+        text-decoration: none
+        display: inline-block
+        font-size: 16px
+        margin: 0px 0px
+        border-bottom-left-radius: 40px
+        &:hover
+            color: $color4
+            background-color: $color2
+    .button
+        background-color: $color2
+        border: none
+        color: white
+        padding: 20px
+        text-align: center
+        text-decoration: none
+        display: inline-block
+        font-size: 16px
+        margin: 0px 0px
+        &:hover
+            background-color: $color1
+
+    
+
+
+    

@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=area.css.map */
+body {
+  background-image: url("../images/bgimagetrans.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
+  -webkit-background-size: cover;
+}
+
+.navbar {
+  padding-top: 7%;
+  padding-right: 13%;
+  float: right;
+}
+
+.navbar .home {
+  background-color: #6C4A4A;
+  border: none;
+  color: #EDEDED;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  border-bottom-left-radius: 40px;
+}
+
+.navbar .home:hover {
+  color: #EDEDED;
+  background-color: #C89595;
+}
+
+.navbar .button {
+  background-color: #C89595;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+}
+
+.navbar .button:hover {
+  background-color: #6C4A4A;
+}
+/*# sourceMappingURL=area.css.map */
