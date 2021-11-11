@@ -1,54 +1,114 @@
-$color1 : #6C4A4A
-$color2 : #C89595
-$color3 : #DDBEBE
-$color4 : #EDEDED
-$color5 : #fecc98
+$BackgroundColor : #FAF2DA
+$ButonColor : #8E9775
+$ButonAcilir : #7d8a58
+$ButonAcilirBorder : #cfe397
+$ButonHoverColor : #4A503D
+$color4 : #E28F83
+
 $textColorBlack : #000
 $textColorWhite : #fff
 
 $navbarPadTop : 7%    
 $navbarPadRight : 13% 
+
+$navbarPadding : 15px
 body
-    background-image: url("../images/bgimagetrans.png")
-    background-repeat: no-repeat
-    background-attachment: fixed
-    //background-size: 100%
-    display: block
-    -webkit-background-size: cover
+    background-color: $BackgroundColor
 
+.banner
+    height: 100px
+    width: 100%
+    background-color: red
+
+.menubar
     
-.navbar
-    padding-top: $navbarPadTop
-    padding-right: $navbarPadRight
-    float: right
-    .home
-        background-color: $color1
-        border: none
-        color: $color4
-        padding: 20px
-        text-align: center
-        text-decoration: none
-        display: inline-block
-        font-size: 16px
-        margin: 0px 0px
-        border-bottom-left-radius: 40px
-        &:hover
-            color: $color4
-            background-color: $color2
-    .button
-        background-color: $color2
-        border: none
-        color: white
-        padding: 20px
-        text-align: center
-        text-decoration: none
-        display: inline-block
-        font-size: 16px
-        margin: 0px 0px
-        &:hover
-            background-color: $color1
+    height: 100px
+    width: 100%
 
+.iceriksol
+    
+    height: 700px
+    width: 10%
+    float: left
+    background-color: red
+.icerikorta
+    
+    height: 700px
+    width: 70%
+    float: left
+    background-color: blue
+.iceriksag
+    
+    height: 700px
+    width: 20%
+    float: left
+    background-color: red
+.menu
+
+    position: absolute
     
 
+    ul
+        list-style-type: none
+        
+        .home
+            
+            border: none
+            text-decoration: none
+            background: $ButonColor
+            display: block
+            color: white
+            font-weight: bold
+            font-family: sans-serif
+            text-align: center
+            padding: $navbarPadding
+            border-bottom-right-radius: 40px
+        &:hover
+            
+            background-color: $ButonHoverColor
+                 
+        li
+            
+            a
+                
+                list-style-type: none
+                border: none
+                text-decoration: none
+                background: $ButonColor
+                display: block
+                color: white
+                font-weight: bold
+                font-family: sans-serif
+                text-align: center
+                padding: $navbarPadding
+            &:hover
+                ul
+                    
+                    display: block
+            ul
+                display: none
+                
+                li
+                    
+                    a
+                        
+                        background: $ButonAcilir
+                        text-align: left
+                        
+                        border-bottom: 3px solid $ButonAcilirBorder
+                        font-size: .8em
+                        &:hover
+                            padding-left: 5px
+                        
+    li
+        float: left
+        //position: absolute
+        width: 150px
+        a
+            &:hover
+                background: $ButonHoverColor
+                transition: .5s
 
+    
+        
     

@@ -1,48 +1,104 @@
 body {
-  background-image: url("../images/bgimagetrans.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #FAF2DA;
+}
+
+.banner {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+.menubar {
+  height: 100px;
+  width: 100%;
+}
+
+.iceriksol {
+  height: 700px;
+  width: 10%;
+  float: left;
+  background-color: red;
+}
+
+.icerikorta {
+  height: 700px;
+  width: 70%;
+  float: left;
+  background-color: blue;
+}
+
+.iceriksag {
+  height: 700px;
+  width: 20%;
+  float: left;
+  background-color: red;
+}
+
+.menu {
+  position: absolute;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul .home {
+  border: none;
+  text-decoration: none;
+  background: #8E9775;
   display: block;
-  -webkit-background-size: cover;
-}
-
-.navbar {
-  padding-top: 7%;
-  padding-right: 13%;
-  float: right;
-}
-
-.navbar .home {
-  background-color: #6C4A4A;
-  border: none;
-  color: #EDEDED;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 0px 0px;
-  border-bottom-left-radius: 40px;
-}
-
-.navbar .home:hover {
-  color: #EDEDED;
-  background-color: #C89595;
-}
-
-.navbar .button {
-  background-color: #C89595;
-  border: none;
   color: white;
-  padding: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 0px 0px;
+  padding: 15px;
+  border-bottom-right-radius: 40px;
 }
 
-.navbar .button:hover {
-  background-color: #6C4A4A;
+.menu ul:hover {
+  background-color: #4A503D;
+}
+
+.menu ul li a {
+  list-style-type: none;
+  border: none;
+  text-decoration: none;
+  background: #8E9775;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul {
+  display: none;
+}
+
+.menu ul li ul li a {
+  background: #7d8a58;
+  text-align: left;
+  border-bottom: 3px solid #cfe397;
+  font-size: .8em;
+}
+
+.menu ul li ul li a:hover {
+  padding-left: 5px;
+}
+
+.menu li {
+  float: left;
+  width: 150px;
+}
+
+.menu li a:hover {
+  background: #4A503D;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=area.css.map */
