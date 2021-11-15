@@ -17,21 +17,21 @@ body {
   height: 700px;
   width: 10%;
   float: left;
-  background-color: red;
+  background-color: #FAF2DA;
 }
 
 .icerikorta {
   height: 700px;
   width: 70%;
   float: left;
-  background-color: blue;
+  background-color: #4A503D;
 }
 
 .iceriksag {
   height: 700px;
   width: 20%;
   float: left;
-  background-color: red;
+  background-color: #FAF2DA;
 }
 
 .menu {
