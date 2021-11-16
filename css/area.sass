@@ -12,6 +12,50 @@ $navbarPadTop : 7%
 $navbarPadRight : 13% 
 
 $navbarPadding : 15px
+
+.duyuru
+    position: absolute
+    .mySlides 
+        display: none
+    .slideshow-container 
+        max-width: 100%
+       
+        position: relative
+        margin: auto
+    .dot 
+        height: 13px
+        width: 13px
+        margin: 0 2px
+        background-color: #bbb
+        border-radius: 50%
+        display: inline-block
+        transition: background-color 0.6s ease
+
+    .active 
+        background-color: #717171
+
+    .fade 
+        -webkit-animation-name: fade
+        -webkit-animation-duration: 1.5s
+        animation-name: fade
+        animation-duration: 1.5s
+    @-webkit-keyframes fade 
+        from 
+            opacity: .4 
+        to 
+            opacity: 1
+    @keyframes fade
+        from 
+            opacity: .4
+        to 
+            opacity: 1
+    @media only screen and (max-width: 300px) 
+        .text 
+            font-size: 11px
+
+
+
+
 body
     background-color: $BackgroundColor
 
@@ -33,7 +77,7 @@ body
     background-color: $BackgroundColor
 .icerikorta
     
-    height: 700px
+    height: 300px
     width: 70%
     float: left
     background-color: $ButonHoverColor
