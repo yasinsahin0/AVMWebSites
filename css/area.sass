@@ -13,46 +13,68 @@ $navbarPadRight : 13%
 
 $navbarPadding : 15px
 
+$kampanyaHeight : 306px
+$kampanyaWidth : 700px
+
 .duyuru
-    position: absolute
-    .mySlides 
-        display: none
-    .slideshow-container 
-        max-width: 100%
-       
+    width: 100%
+    height: 400px
+    background-color: $color4
+.kampanya
+    #slider 
+        background:#fff url(loading.gif) no-repeat 50% 50%
         position: relative
-        margin: auto
-    .dot 
-        height: 13px
-        width: 13px
-        margin: 0 2px
-        background-color: #bbb
-        border-radius: 50%
-        display: inline-block
-        transition: background-color 0.6s ease
+        margin: 0 auto
+        box-shadow: 0px 1px 5px #999999
+        height: $kampanyaHeight
+        width: $kampanyaWidth
 
-    .active 
-        background-color: #717171
-
-    .fade 
-        -webkit-animation-name: fade
-        -webkit-animation-duration: 1.5s
-        animation-name: fade
-        animation-duration: 1.5s
-    @-webkit-keyframes fade 
-        from 
-            opacity: .4 
-        to 
-            opacity: 1
-    @keyframes fade
-        from 
-            opacity: .4
-        to 
-            opacity: 1
-    @media only screen and (max-width: 300px) 
-        .text 
-            font-size: 11px
-
+    #slider img 
+        position: absolute
+        border: none
+        display: none
+    #slider a.imgLink 
+        z-index: 2
+        display: none
+        position: absolute
+        top: 0px
+        left: 0px
+        border: 0
+        padding: 0
+        margin: 0
+        width: 100%
+        height: 100%
+    div.mc-caption-bg, div.mc-caption-bg2 
+        position: absolute
+        width: 100%
+        height: auto
+        padding: 0
+        left: 0px
+        bottom: 15px
+        z-index: 3
+        overflow: hidden
+        font-size: 0
+    div.mc-caption-bg 
+	    background-color: black
+    div.mc-caption 
+        font: bold 14px/20px Arial
+        color:#EEE
+        z-index: 4
+        padding: 10px 0
+        text-align: center
+    div.mc-caption a 
+	    color: #FB0
+    div.mc-caption a:hover 
+	    color:#DA0
+    div.navBulletsWrapper  
+        top: 320px
+        left: 280px
+        width: 150px
+        background: none
+        padding-left: 20px
+        position: relative
+        z-index: 5
+        cursor: pointer
 
 
 
@@ -77,7 +99,7 @@ body
     background-color: $BackgroundColor
 .icerikorta
     
-    height: 300px
+    height: 100%
     width: 70%
     float: left
     background-color: $ButonHoverColor
