@@ -16,10 +16,17 @@ $navbarPadding : 15px
 $kampanyaHeight : 306px
 $kampanyaWidth : 700px
 
-.duyuru
-    width: 100%
-    height: 400px
+.duyuru-container
+    width: 45%
+    height: 306px
     background-color: $color4
+    float: left
+
+.kampanya-container
+    float: left
+    width: 55%
+    height: 306px
+    background-color: red
 .kampanya
     #slider 
         background:#fff url(loading.gif) no-repeat 50% 50%
@@ -76,8 +83,36 @@ $kampanyaWidth : 700px
         z-index: 5
         cursor: pointer
 
+.urunimage
+    height: 700px
+    width: 50%
+    float: left
+    
+.urunaciklama
+    height: 400px
+    width: 50%
+    float: left
 
+.urunfiyat
+    height: 300px
+    width: 50%
+    float: left
 
+#oil
+    background-image: url("../images/oil.png")  
+    background-size: 100% 100%
+#soap
+    background-image: url("../images/soap.png")  
+    background-size: 100% 100%
+#spice
+    background-image: url("../images/spice.png")  
+    background-size: 100% 100%
+
+.footer
+    height: 100px
+    width: 100%
+    background-color: white
+    float: left
 body
     background-color: $BackgroundColor
 
@@ -110,15 +145,10 @@ body
     float: left
     background-color: $BackgroundColor
 .menu
-
     position: absolute
-    
-
     ul
         list-style-type: none
-        
         .home
-            
             border: none
             text-decoration: none
             background: $ButonColor
@@ -169,7 +199,7 @@ body
     li
         float: left
         //position: absolute
-        width: 150px
+        width: 200px
         a
             &:hover
                 background: $ButonHoverColor
