@@ -1,63 +1,4 @@
 @charset "UTF-8";
-.misyon {
-  width: 100%;
-  height: 250px;
-}
-
-.vizyon {
-  width: 100%;
-  height: 250px;
-}
-
-h1 {
-  text-align: center;
-  color: #fff;
-}
-
-h3 {
-  text-align: center;
-  color: #FAF2DA;
-}
-
-.rows {
-  width: 100%;
-  height: 500px;
-}
-
-.urunimage {
-  height: 700px;
-  width: 50%;
-  float: left;
-  background-color: #fff;
-}
-
-.urunaciklama {
-  height: 400px;
-  width: 50%;
-  float: left;
-}
-
-.urunfiyat {
-  height: 300px;
-  width: 50%;
-  float: left;
-}
-
-#oil {
-  background-image: url("../images/oil.png");
-  background-size: 100% 100%;
-}
-
-#soap {
-  background-image: url("../images/soap.png");
-  background-size: 100% 100%;
-}
-
-#spice {
-  background-image: url("../images/spice.png");
-  background-size: 100% 100%;
-}
-
 .footer {
   margin-top: 10px;
   height: 100px;
@@ -92,9 +33,12 @@ body {
 }
 
 .banner {
+  margin-bottom: 30px;
   height: 100px;
   width: 100%;
-  background-color: red;
+  background-image: url("../images/natural.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .menubar {
@@ -104,12 +48,14 @@ body {
 
 .iceriksol {
   height: 700px;
-  width: 10%;
+  width: 15%;
   float: left;
   background-color: #FAF2DA;
 }
 
 .icerikorta {
+  -webkit-box-shadow: 3px 3px 4px #000;
+          box-shadow: 3px 3px 4px #000;
   height: 100%;
   width: 70%;
   float: left;
@@ -118,7 +64,7 @@ body {
 
 .iceriksag {
   height: 700px;
-  width: 20%;
+  width: 15%;
   float: left;
   background-color: #FAF2DA;
 }
