@@ -1,60 +1,63 @@
-#slider {
-	background:#fff url(loading.gif) no-repeat 50% 50%;
-	position:relative;
-	margin:0 auto;/*make the image slider center-aligned */
-    box-shadow: 0px 1px 5px #999999;
+.sayfa{
+	width: 700px;
+	margin: 0 auto;
 }
-#slider img {
-	position:absolute;
-	border:none;
-	display:none;
+.sliderKonum{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
 }
-
-/* the link style (if an image is wrapped in a link) */
-#slider a.imgLink {
-	z-index:2;
-	display:none;position:absolute;
-	top:0px;left:0px;border:0;padding:0;margin:0;
-	width:100%;height:100%;
-}
-
-/* Caption styles */
-div.mc-caption-bg, div.mc-caption-bg2 {
-	position:absolute;
-	width:100%;
-	height:auto;
-	padding:0;
-	left:0px; 
-	bottom:15px;
-	z-index:3;
-	overflow:hidden;
-	font-size: 0;
-}
-div.mc-caption-bg {
-	background-color:black;
-}
-div.mc-caption {
-	font: bold 14px/20px Arial;
-	color:#EEE;
-	z-index:4;
-	padding:10px 0;
-	text-align:center;
-}
-div.mc-caption a {
-	color:#FB0;
-}
-div.mc-caption a:hover {
-	color:#DA0;
-}
-
-
-/* ------ built-in navigation bullets wrapper ------*/
-div.navBulletsWrapper  {
-	top:320px; left:280px; /* Its position is relative to the #slider */
-	width:150px;
-	background:none;
-	padding-left:20px;
-	position:relative;
-	z-index:5;
-	cursor:pointer;
-}
+.img-bir{left: 0px;}
+.img-iki{left: 700px;}
+.img-uc{left: 1400px;}
+ 
+.sliderKonum > .slider{
+	position: absolute;
+	left:0px;
+	width: 2800px;
+	height: 400px;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-name: sliders;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-duration: 10s;
+	-moz-animation-name: sliders;
+	-moz-animation-iteration-count:infinite;
+	-ms-animation-duration: 10s;
+	-ms-animation-name: sliders;
+	-ms-animation-iteration-count:infinite;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+  }
+  @-webkit-keyframes sliders{
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:-700px;}
+	30% {left:-700px;}
+	40% {left:-1400px;}
+	50% {left:-1400px;}
+  }
+  @-moz-keyframes sliders{
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:-700px;}
+	30% {left:-700px;}
+	40% {left:-1400px;}
+	50% {left:-1400px;}
+  }
+  @-ms-keyframes sliders {
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:-700px;}
+	30% {left:-700px;}
+	40% {left:-1400px;}
+	50% {left:-1400px;}
+  }
+  @keyframes sliders{
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:-700px;}
+	30% {left:-700px;}
+	40% {left:-1400px;}
+	50% {left:-1400px;}
+  }

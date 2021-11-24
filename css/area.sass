@@ -16,77 +16,28 @@ $navbarPadding : 15px
 $kampanyaHeight : 306px
 $kampanyaWidth : 700px
 
-.duyuru-container
-    width: 45%
-    height: 306px
-    background-color: $color4
-    float: left
 
-.kampanya-container
-    float: left
-    width: 55%
-    height: 306px
-    background-color: red
-.kampanya
-    #slider 
-        background:#fff url(loading.gif) no-repeat 50% 50%
-        position: relative
-        margin: 0 auto
-        box-shadow: 0px 1px 5px #999999
-        height: $kampanyaHeight
-        width: $kampanyaWidth
-
-    #slider img 
-        position: absolute
-        border: none
-        display: none
-    #slider a.imgLink 
-        z-index: 2
-        display: none
-        position: absolute
-        top: 0px
-        left: 0px
-        border: 0
-        padding: 0
-        margin: 0
-        width: 100%
-        height: 100%
-    div.mc-caption-bg, div.mc-caption-bg2 
-        position: absolute
-        width: 100%
-        height: auto
-        padding: 0
-        left: 0px
-        bottom: 15px
-        z-index: 3
-        overflow: hidden
-        font-size: 0
-    div.mc-caption-bg 
-	    background-color: black
-    div.mc-caption 
-        font: bold 14px/20px Arial
-        color:#EEE
-        z-index: 4
-        padding: 10px 0
-        text-align: center
-    div.mc-caption a 
-	    color: #FB0
-    div.mc-caption a:hover 
-	    color:#DA0
-    div.navBulletsWrapper  
-        top: 320px
-        left: 280px
-        width: 150px
-        background: none
-        padding-left: 20px
-        position: relative
-        z-index: 5
-        cursor: pointer
+.misyon
+    width: 100%
+    height: 250px
+.vizyon
+    width: 100%
+    height: 250px
+h1
+    text-align: center
+    color: $textColorWhite
+h3
+    text-align: center
+    color: $BackgroundColor
+.rows
+    width: 100%
+    height: 500px
 
 .urunimage
     height: 700px
     width: 50%
     float: left
+    background-color: $textColorWhite
     
 .urunaciklama
     height: 400px
@@ -109,10 +60,26 @@ $kampanyaWidth : 700px
     background-size: 100% 100%
 
 .footer
+    margin-top: 10px
     height: 100px
     width: 100%
-    background-color: white
+    background-color: $ButonHoverColor
     float: left
+    .bir
+        height: 100%
+        width: 33.33%
+        float: left
+        text-align: center
+    .iki
+        height: 100%
+        width: 33.33%
+        float: left
+        text-align: center
+    .üc
+        height: 100%
+        width: 33.33%
+        float: left
+        text-align: center
 body
     background-color: $BackgroundColor
 
