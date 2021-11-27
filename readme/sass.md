@@ -5,6 +5,10 @@ sahiptir. Tab ile girintileme yapmamız gerekir. Bu girintileme kuralı sayesind
 Bu sayfada sass ile kullanımlara örnekler verilip bazı kod parçaları açıklanacaktır.  
 
 ## Sass Variable  
-![resim]()
+![resim](https://raw.githubusercontent.com/yasinsahin0/AVMWebSite/main/readme/image/sassvariable.png?token=ANPXO2PEKL3EFEZRUVDDBKLBUIWCM)
+
+## Sass Mixin
+![resim](https://raw.githubusercontent.com/yasinsahin0/AVMWebSite/main/readme/image/sassmixin.png?token=ANPXO2LCAVF6OMYK2NXV7ATBUIWCK)
+
 ## Sass Function  
-![resim](https://raw.githubusercontent.com/yasinsahin0/AVMWebSite/main/readme/image/sassfunction.png?token=ANPXO2NBTGZYCRNO7UHXL53BUIVEW)
+![resim](https://raw.githubusercontent.com/yasinsahin0/AVMWebSite/main/readme/image/sassfunction.png?token=ANPXO2O6WBC5KEVGFMZMZCTBUIWEE)
