@@ -6,18 +6,24 @@
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
 
+{% swagger method="get" path="" baseUrl="aaa" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" name="aa" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="ddd" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 {% content-ref url="avm-web-site-documentation/sass.md" %}
 [sass.md](avm-web-site-documentation/sass.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-## Want to deep dive?
-
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
