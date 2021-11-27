@@ -5,19 +5,31 @@ $tema4 : #cfe397
 $tema5 : #4A503D
 $tema6 : #E28F83
 
+@mixin borderStyle
+    margin-bottom: 3%
+    margin-top: 2%
+    margin-left: 5%
+    margin-right: 5%
+    border-radius: 10px 10px 10px 10px
+
+@mixin Richtext
+    text-align: center
+    font-size: 13px
+
+
+
+
 $textColorBlack : #000
-
-
-$textColorWhite : #fff
+$WhiteColor : #fff
 
 h1
     font-size: 30px
     text-align: center
-    color: $textColorWhite
+    color: $WhiteColor
 h2
     font-size: 20px
     text-align: center
-    color: $textColorWhite
+    color: $WhiteColor
 h3
     font-size: 15px
     text-align: center
@@ -26,6 +38,20 @@ p
     font-size: 15px
     margin-left: 15px
     margin-right: 15px
+
+.duyuru-baslik
+    font-size: 25px
+    text-align: center
+    color: $tema5
+
+.misviz-text
+    height: 200px
+    width: 90%
+    background-color: $tema2
+    @include borderStyle
+    a
+        @include Richtext
+
 .butonyerlesim
     text-align: center
 .button
@@ -77,10 +103,10 @@ p
     
 .misyon
     width: 100%
-    height: 250px
+    height: 100%
 .vizyon
     width: 100%
-    height: 250px
+    height: 100%
 
 .rows
     width: 100%
@@ -90,7 +116,7 @@ p
     height: 700px
     width: 50%
     float: left
-    background-color: $textColorWhite
+    background-color: $WhiteColor
     
 .urunaciklama
     height: 400px
@@ -112,7 +138,12 @@ p
     background-image: url("../images/spice.png")  
     background-size: 100% 100%
 
-
+.duyuru
+    background-color: $WhiteColor
+    height: 75px
+    width: 90%
+    @include borderStyle
+    
 
 
 
