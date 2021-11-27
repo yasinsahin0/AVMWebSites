@@ -12,3 +12,6 @@ Bu sayfada sass ile kullanımlara örnekler verilip bazı kod parçaları açık
 
 ## Sass Function  
 ![resim](https://raw.githubusercontent.com/yasinsahin0/AVMWebSite/main/readme/image/sassfunction.png?token=ANPXO2O6WBC5KEVGFMZMZCTBUIWEE)
+
+## Sass Example Code
+
