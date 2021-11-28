@@ -3,6 +3,8 @@
   margin-top: 10px;
   height: 100px;
   width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   background-color: #4A503D;
   float: left;
 }
@@ -36,10 +38,16 @@ body {
   margin-bottom: 10px;
   height: 150px;
   width: 150px;
-  background-image: url("../images/natural.png");
+  background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
+  background-color: #cfe397;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 20px;
+  float: right;
 }
 
 .menubar {
