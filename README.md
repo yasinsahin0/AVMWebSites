@@ -2,4 +2,4 @@
 
 
 
-GitBoook : https://yasin-sahin.gitbook.io/api-doc/
+GitBoook : https://yasin-sahin.gitbook.io/avm-website/
